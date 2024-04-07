@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.navbar {
+    width: 100%;
+    height: 70px;
+  }
+  
+  .navbar .container {
+    height: inherit;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .navbar_menu li {
+    display: inline-block;
+    column-gap: 70px;
+    margin-right: 33px;
+  }
+  .navbar_menu li a {
+    text-decoration: none;
+    color: black;
+    padding: 5px;
+    font-size: 20px;
+  }
+  
+  .navbar .navbar-brand {
+    margin-bottom: 20px;
+    font-size: 30px;
+    text-decoration: none;
+    color: black;
+    padding-right: 1000px;
+    padding-left: 50px;
+  }
+  
+  .BMW{
+    height: 800px;
+    background-image: linear-gradient(rgba(0.2, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    url(./images/8da5f03158fe9e78be50c0188b8c8d505847507c.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .about{
+    color: white;
+    font-size: 25px;
+    text-align: center;
+  }
+  .models_h1{
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+    color: black;
+    margin: 20px 0;
+  }
+
+  .cars{
+    width: 320px;
+    height: 450px;
+    background-color: rgb(236, 236, 236);
+  }
+  .cars_img{
+    width: 320px;
+    height: 250px;
+  }
+  .about_container{
+    display: flex;
+    justify-content: space-around;
+  }
+  .about_text{
+    color: black;
+  }
+
+  .cars a{
+    margin:  0 20px;
+    color: rgb(69, 69, 69);
+  }
+  .cars p{
+    margin-bottom: 40px;
+  }
+  .cars hr{
+    border-width: 2px;
+  }
+  .accessories{
+    margin-top: 100px;
+    margin-bottom: 60px;
+    background-image: linear-gradient(rgba(0.2, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    url(./images/bg.jpg);
+    background-size: cover;
+    height: 750px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+.order h1{
+    color: white;
+    font-size: 50px;
+}
+.order {
+    font-size: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.btn {
+    color: grey;
+    cursor: pointer;
+    margin-top: 10px; 
+    width: 200px;
+    height: 45px;
+    font-size: 20px;
+    border-radius: 5px;
+    border-color: white;
+    background-color: white;
+}
+.navbar2 {
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .navbar2 .container {
+    height: inherit;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .navbar_menu2 li {
+    display: inline-block;
+    margin: 0 45px;
+  }
+  .navbar_menu2 li a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+  }
+  
+  .navbar2 .navbar-brand2 {
+    font-size: 30px;
+    text-decoration: none;
+    color: black;
+  }
+  
